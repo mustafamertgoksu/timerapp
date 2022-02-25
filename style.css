@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;    
+}
+
+body {
+    background-color: #385170;
+}
+
+h1 {
+    color: #f7f7f7;  
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.time #minute, #seconds {
+    color: #f7f7f7;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.buttons #start, #stop, #reset {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
